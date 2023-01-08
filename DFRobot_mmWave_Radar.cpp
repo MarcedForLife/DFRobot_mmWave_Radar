@@ -244,3 +244,15 @@ void DFRobot_mmWave_Radar::factoryReset(void)
   _s->write(comStart);
   delay(DELAY);
 }
+
+void DFRobot_mmWave_Radar::start(void)
+{
+  _s->write(comStart);
+  delay(DELAY);
+}
+
+void DFRobot_mmWave_Radar::stop(void)
+{
+  _s->write(comStop);
+  delay(DELAY);
+}

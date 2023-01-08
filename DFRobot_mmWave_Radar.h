@@ -93,6 +93,16 @@ class DFRobot_mmWave_Radar
     */
     void factoryReset(void);
 
+    /**
+      @brief Starts the sensor.
+    */
+    void start(void);
+
+    /**
+      @brief Stops the sensor.
+    */
+    void stop(void);
+
   private:
 
 

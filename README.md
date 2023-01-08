@@ -85,6 +85,18 @@ To use this library, first download the library file, paste it into the \Arduino
       @brief Restore the sensor current configuration to the factory default value  
     */
     void factoryReset(void);
+
+
+    /**
+      @brief Starts the sensor.
+    */
+    void start(void);
+
+
+    /**
+      @brief Stops the sensor.
+    */
+    void stop(void);
 ```
 
 ## Compatibility
